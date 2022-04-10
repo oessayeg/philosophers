@@ -9,7 +9,7 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
    * There is n philosophers sitting around a table, there are as many forks as them and a bowl of spaghetti
    * Philosophers can be in 3 states : eating, sleeping or thinking state, each one can eat only if he has two forks.
    * Philosophers are threads (processes for the bonus part), forks are mutexes (semaphores for the bonus part).
-   * Make a program that synchronizes the philosophers ,avoid deadlocks and starvation.
+   * Make a program that synchronizes the philosophers ,avoid deadlocks and starvation and print each action that the philosopher does in the current time in ms.
  
 ## The program's arguments  
    1. Number of philosophers
