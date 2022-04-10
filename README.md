@@ -6,7 +6,7 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
 
 
 ### The problem
-   1. hello
+   _ hello
    
    There is n philosophers sitting around a table.
     
