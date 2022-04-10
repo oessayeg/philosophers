@@ -14,11 +14,11 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
    * Make a program that synchronizes the philosophers and make them avoid dying.
    * The program takes 5 arguments:
    
-     . Number of philosophers
-     . Time to die (If a philosopher didn’t start eating time_to_die miliseconds since the beginning of their last meal they die)
-     . Time to eat (The time that they should spend eating (using forks))
-     . Time to sleep (The time that they should spend sleeping)
-     . (optional) Number of meals (If all philosophers ate n meals, the simulation stops)
+     1. Number of philosophers
+     2. Time to die (If a philosopher didn’t start eating time_to_die miliseconds since the beginning of their last meal they die)
+     3. Time to eat (The time that they should spend eating (using forks))
+     4. Time to sleep (The time that they should spend sleeping)
+     5. (optional) Number of meals (If all philosophers ate n meals, the simulation stops)
 
 
     
