@@ -32,6 +32,7 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
   * Functionning of threads, mutexes, semaphores
   * Threads syncronization
   * Processes synchronization
+  * Unix logic
 
 ## Final grade 
   125/100.
