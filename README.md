@@ -11,10 +11,6 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
    * Philosophers are threads (processes for the bonus part), forks are mutexes (semaphores for the bonus part).
    * Make a program that synchronizes the philosophers ,avoid deadlocks and starvation and print each action that the philosopher does in the current time in ms.
    
-                      <img width="255" alt="Screen Shot 2022-04-10 at 11 02 08 AM" src="https://user-images.githubusercontent.com/96997041/162615120-37fccf9a-8aa6-4f10-9a13-6ecc54637dbe.png">
-
-
- 
 ## The program's arguments  
    1. Number of philosophers
    2. Time to die (If a philosopher didn’t start eating time_to_die miliseconds since the beginning of their last meal they die)
