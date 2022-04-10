@@ -8,6 +8,10 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
 ### The problem
 
     *** There is n philosophers sitting around a table.
+    
+    
+    
+    
     * There are as many forks as philosophers and a bowl of spaghetti.
     * Philosophers can be in 3 states : eating, sleeping or thinking state.
     * Philosophers can eat only if they have two forks. 
