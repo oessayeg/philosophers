@@ -13,6 +13,7 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
    * Philosophers are threads (processes for the bonus part), forks are mutexes (semaphores for the bonus part).
    * Make a program that synchronizes the philosophers and make them avoid dying.
    * The program takes 5 arguments:
+
             1. Number of philosophers
             2. Time to die (If a philosopher didn’t start eating time_to_die miliseconds since the beginning of their last meal they die)
             3. Time to eat (The time that they should spend eating (using forks))
