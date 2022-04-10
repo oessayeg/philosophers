@@ -8,7 +8,7 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
 ### The problem
    hello
    
-    *** There is n philosophers sitting around a table.
+   There is n philosophers sitting around a table.
     
     
     
