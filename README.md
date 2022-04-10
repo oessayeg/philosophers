@@ -26,4 +26,4 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
 ## Some examples of the execution
   * ./philo 5 800 200 200 or ./philo_bonus 5 800 200 200 (the simulation will never end)
   * ./philo 2 400 150 150 7 or ./philo_bonus 2 400 150 150 7 (the simulation will stop when all philosophers eat 7 times)
-  * ./philo 4 410 200 100 or ./philo_bonus 4 410 200 100 (a philosopher will die)
+  * ./philo 4 310 200 100 or ./philo_bonus 4 310 200 100 (a philosopher will die)
