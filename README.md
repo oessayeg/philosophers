@@ -5,16 +5,10 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
 - [Starvation](https://en.wikipedia.org/wiki/Starvation_(computer_science))
 
 
-### The problem
-   - hello
-   
-   There is n philosophers sitting around a table.
-    
-    
-    
-    
-    * There are as many forks as philosophers and a bowl of spaghetti.
-    * Philosophers can be in 3 states : eating, sleeping or thinking state.
+### The problem 
+   * There is n philosophers sitting around a table
+   * There are as many forks as philosophers and a bowl of spaghetti
+   * Philosophers can be in 3 states : eating, sleeping or thinking state.
     * Philosophers can eat only if they have two forks. 
     * Philosophers are threads (processes for the bonus part), forks are mu
     texes (semaphores for the bonus part).
