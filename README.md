@@ -28,5 +28,10 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
   * ./philo 2 400 150 150 7 or ./philo_bonus 2 400 150 150 7 (the simulation will stop when all philosophers eat 7 times)
   * ./philo 4 310 200 100 or ./philo_bonus 4 310 200 100 (a philosopher will die)
 
+## What I've learnt for this project
+  * Functionning of threads, mutexes, semaphores
+  * Threads syncronization
+  * Processes synchronization
+
 ## Final grade 
   125/100.
