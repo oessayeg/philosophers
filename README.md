@@ -33,6 +33,7 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
   * Threads syncronization
   * Processes synchronization
   * Unix logic
+  * Data race management
 
 ## Final grade 
   125/100.
