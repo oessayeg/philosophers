@@ -8,7 +8,7 @@ FL = -Wall -Wextra -Werror
 all : $(NAME)
 
 $(NAME) : $(SRCS)
-	@cc $(Fl) $(SRCS) -o $(NAME)
+	@cc $(Fl) $(SRCS) -o $(NAME) -fsanitize=thread
 	@printf "\033[33;5mThe executable 'philo' is ready !\n\033[0m"
 
 clean : 

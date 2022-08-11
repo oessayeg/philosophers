@@ -49,14 +49,18 @@ void	print_msg(t_philo *philo, int option)
 	else if (option == 2)
 	{
 		printf("%d is eating\n", philo->philo_id);
+		pthread_mutex_lock(&philo->mutex);
 		philo->state = 2;
 		philo->last_eat = give_time();
 		philo->eaten_meals++;
+		pthread_mutex_unlock(&philo->mutex);
 	}
 	else if (option == 3)
 	{
 		printf("%d is sleeping\n", philo->philo_id);
+		pthread_mutex_lock(&philo->mutex);
 		philo->state = 0;
+		pthread_mutex_unlock(&philo->mutex);
 	}
 	else if (option == 4)
 		printf("%d is thinking\n", philo->philo_id);
