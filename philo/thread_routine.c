@@ -24,7 +24,7 @@ int	init_threads(t_philo *philo)
 			write(2, "Pthread_create Failed !\n", 24);
 			return (1);
 		}
-		usleep(90);
+		usleep(100);
 		i++;
 	}
 	while (1)

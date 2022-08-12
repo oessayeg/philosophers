@@ -46,7 +46,6 @@ typedef struct s_philosophers
 	int			state;
 	int			eaten_meals;
 	pthread_t	th;
-	pthread_mutex_t mutex;
 	t_params	*rules;
 }t_philo;
 

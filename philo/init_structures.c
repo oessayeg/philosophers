@@ -55,8 +55,7 @@ t_philo	*init_philo_struct(t_params *par)
 		philos[i].last_eat = give_time();
 		philos[i].eaten_meals = 0;
 		philos[i].rules = par;
-		if (pthread_mutex_init(&par->forks[i], NULL) != 0
-			|| pthread_mutex_init(&philos[i].mutex, NULL) != 0)
+		if (pthread_mutex_init(&par->forks[i], NULL) != 0)
 		{
 			write(2, "Pthread_mutex_init Failed !\n", 28);
 			return (NULL);
