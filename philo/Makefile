@@ -5,6 +5,8 @@ SRCS = $(addprefix ../philo/, main_philo.c error_functions.c init_structures.c \
 
 FL = -Wall -Wextra -Werror
 
+SAN = -fsanitize=thread
+
 all : $(NAME)
 
 $(NAME) : $(SRCS)

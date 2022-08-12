@@ -18,6 +18,7 @@ int	check_death_time(t_philo *philo)
 	i = 0;
 	while (i < philo[0].rules->n_philo)
 	{
+		pthread_mutex_lock(&philo[i].mutex);
 		if (philo[i].last_eat > 0
 			&& give_time() - philo[i].last_eat
 			>= philo[i].rules->time_to_die && philo[i].state != 2)
@@ -25,6 +26,7 @@ int	check_death_time(t_philo *philo)
 			print_msg(&philo[i], DIE);
 			return (1);
 		}
+		pthread_mutex_unlock(&philo[i].mutex);
 		i++;
 	}
 	return (0);
@@ -39,8 +41,10 @@ int	check_meals(t_philo *philo)
 	i = 0;
 	while (i < philo[0].rules->n_philo)
 	{
+		pthread_mutex_lock(&philo[i].mutex);
 		if (philo[i].eaten_meals >= philo[i].rules->n_meals)
 			count++;
+		pthread_mutex_unlock(&philo[i].mutex);
 		i++;
 	}
 	if (count == philo[0].rules->n_philo)
