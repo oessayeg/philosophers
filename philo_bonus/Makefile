@@ -5,6 +5,8 @@ BONUS_SRCS = $(addprefix ../philo_bonus/, error_functions_bonus.c main_philo_bon
 
 FL = -Wall -Wextra -Werror
 
+FSAN = -fsanitize=thread
+
 bonus : $(BONUS_NAME)
 
 $(BONUS_NAME) : $(BONUS_SRCS)

@@ -19,6 +19,7 @@
 # include <sys/time.h>
 # include <pthread.h>
 # include <signal.h>
+# include <stdatomic.h>
 
 typedef struct s_params
 {
@@ -35,9 +36,9 @@ typedef struct s_params
 typedef struct s_philosophers
 {
 	int			philo_id;
-	long int	last_eat;
-	int			eaten_meals;
-	int			is_put;
+	atomic_long	last_eat;
+	atomic_int			eaten_meals;
+	atomic_int			is_put;
 	pid_t		process_id;
 	pthread_t	th;
 	t_params	*par;
