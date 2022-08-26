@@ -30,10 +30,7 @@ This is a project from the third circle of the 42 cursus. It introduces to two m
 
 ## What I've learnt from this project
   * Functionning of threads, mutexes, semaphores
-  * Threads syncronization
+  * Threads synchronization
   * Processes synchronization
   * Unix logic
   * Data race management
-
-## Final grade 
-  125/100.
