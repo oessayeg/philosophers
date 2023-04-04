@@ -14,7 +14,7 @@
 int	m_fail(void)
 {
 	write(2, "Malloc Failed !\n", 16);
-	return (0);
+	return (EXIT_FAILURE);
 }
 
 int	ft_atoi(char *nb)
